@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title("Collisions in Seattle"
+st.title("Collisions in Seattle")
 st.table(pd.DataFrame({
     'Collision Type': ['Opposite Direction - Both Going Straight - Sideswipe', 'Motor Vehicle Struck Pedalcyclist, Front End at Angle', 'From Opposite Direction - One Left Turn - One Straight', 'From Same Direction -Both Going Straight-Both Moving- Sideswipe', 'From Same Direction - Both Going Straight - One Stopped - Rear End', 'From Opposite Direction - Both Moving - Head On']
     'Number of Incidents': [98302, 64094, 10664, 8318, 5399, 3771]
