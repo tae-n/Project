@@ -104,7 +104,7 @@ st.table(pd.DataFrame({
     'Road': ['Dry', 'Wet', 'Ice', 'Other'],
     'Count': [6039, 3329, 251, 448]}))
 
-label_r28 = 'Dry', 'Wet', 'Ice' 'Other'
+label_r28 = 'Dry', 'Wet', 'Ice', 'Other'
 size_r28 = [6039, 3329, 251, 448]
 fig_r28, ax_r28 = plt.subplots()
 ax_r28.pie(size_r28, labels=label_r28, autopct='%1.1f%%', startangle=90)
