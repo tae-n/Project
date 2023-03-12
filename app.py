@@ -16,7 +16,7 @@ size_w26 = [2494, 1630, 809, 180]
 
 fig_w26, ax_w26 = plt.subplots()
 ax_w26.pie(size_w26, labels=label_w26, autopct='%1.1f%%', startangle=90)
-ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+ax_w26.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
 st.pyplot(fig_w26)
    
