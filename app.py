@@ -31,7 +31,7 @@ st.table(pd.DataFrame({
     'Road': ['Dry', 'Wet', 'Other'],
     'Count': [2728, 2130, 97]}))
 
-label_r26 = 'Dry', 'Wet', 'Other'
+label_r26 = ['Dry', 'Wet', 'Other']
 size_r26 = [2728, 2130, 97]
 fig_r26, ax_r26 = plt.subplots()
 ax_r26.pie(size_r26, labels=label_r26, autopct='%1.1f%%', startangle=90)
